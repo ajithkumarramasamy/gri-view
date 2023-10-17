@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.main-wrapper{
+    background-color: #fff;
+    min-height: 100vh;
+    overflow-x: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.main-title{
+    text-align: center;
+}
+.main-title h1{
+    padding: 10px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 0px;
+}
+.display-style-btns{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #fff;
+    padding: 16px 0;
+    border-radius: 5px;
+}
+.display-style-btns button{
+    border: none;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 8px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.display-style-btns button:hover{
+    color: #f79410;
+}
+.active-btn{
+    color: #f79410;
+}
+
+.input {
+   width:100%;
+   height: 30px;
+}
+
+.total-container {
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.card-container {
+    margin: 20px;
+    padding: 10px;
+    border-style: solid;
+    border-color: rgb(228, 225, 225);
+    border-radius: 10px;
+    border-width: 1px;
+    display:flex;
+}
+
+.image {
+    width:15%;
+    margin-right: 15px;
+}
+
+.info-heading{
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+
+.info-para{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    color:rgb(37, 36, 36);
+}
+
+.card-new {
+    position: absolute;
+    background-color:#48fb47;
+    border-style: solid;
+    border-width: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width:7%;
+    text-align: center;
+}
+
+.searched {
+    background-color: #48fb47;
+}
+
+.list-total-container {
+    display: block;
+}
+
+.grid-total-container {
+   display: flex;
+   flex-direction: row;
+   grid-template-columns:30%;
+   flex-wrap: wrap;
+   padding: 30px;
+}
+
+.grid-card-container {
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-style: solid;
+    border-color: rgb(228, 225, 225);
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.grid-image {
+    width: 100%;
+}
